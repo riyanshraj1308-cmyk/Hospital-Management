@@ -1,0 +1,15 @@
+{
+  "name": "medicore-hospital-management",
+  "version": "1.0.0",
+  "description": "Full-stack Hospital Management Platform",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["hospital", "management", "react", "nodejs", "mongodb"],
+  "license": "MIT"
+}
